@@ -88,7 +88,7 @@ app.get('/hello', function (req, res) {
 app.get('/', (req, res) => {
     // Use req.log (a `pino` instance) to log JSON:
  
-    req.log.info({ message: 'Hello from Appsody!' });
+    // req.log.info({ message: 'Hello from Appsody!' });
     res.send('Hello congrats!');
   });
 app.post('/login',(req, res) => {
